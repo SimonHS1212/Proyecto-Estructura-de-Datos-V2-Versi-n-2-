@@ -1,11 +1,11 @@
 ﻿public static void MostrarDineroComisionadoPorServicios()
 {
-    double comisionElectricidad = 0;
-    double comisionTelefono = 0;
-    double comisionAgua = 0;
-    int countElectricidad = 0;
-    int countTelefono = 0;
-    int countAgua = 0;
+    public static double[] comisionElectricidad { get; set; } = new double[10];
+    public static double comisionTelefono { get; set; } = new double[10];
+    public static double comisionAgua { get; set; } = new double[10];
+    public static int countElectricidad { get; set; } = new int[10];
+    public static int countTelefono { get; set; } = new int[10];
+    public static int countAgua { get; set; } = new int[10];
 
 
     for (int i = 1; i < indice; i++)
